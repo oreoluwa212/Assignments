@@ -1,0 +1,43 @@
+html,
+body {
+   height: 100vh;
+}
+
+body {
+   background-color: gainsboro;
+   margin: 0;
+   display: grid;
+   row-gap: 1.0rem;
+   column-gap: 1.0rem;
+   grid-template-columns: 60%, 60%, 10%;
+   grid-template-rows: 40%, 40%, 15%;
+   grid-template-areas:
+      "header header right"
+      "sect2   main  main"
+      "sect2   footer  footer";
+}
+
+header {
+   grid-area: header;
+   background-color: hotpink;
+}
+
+right {
+   grid-area: right;
+   background-color: lightcoral;
+}
+
+section {
+   grid-area: sect2;
+   background-color: firebrick;
+}
+
+main {
+   grid-area: main;
+   background-color: green;
+}
+
+footer {
+   grid-area: footer;
+   background-color: cadetblue;
+}
