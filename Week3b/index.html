@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>Login and Registration Form</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+   <div class="hero">
+
+
+      <div class="form-box">
+         <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+         </div>
+         <div class="social-icons">
+            <img src="fb.jpg" alt="">
+            <img src="tw.jpg" alt="">
+            <img src="gp.jpg" alt="">
+         </div>
+
+         <form id="login" class="input-group">
+            <input type="text" class="input-field" placeholder="User Id" required>
+            <br>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <br>
+            <input type="checkbox" class="check-box">Remember Password
+            <button type="submit" class="submit-button">Log In</button>
+         </form>
+
+
+         <form id="register" class="input-group">
+            <input type="text" class="input-field" placeholder="First Name" required>
+
+            <input type="text" class="input-field" placeholder="Last Name" required>
+
+            <input type="number" class="input-field" placeholder="Phone" required>
+
+            <input type="email" class="input-field" placeholder="Email Id" required>
+            <br>
+
+            <label for="date"> Date of birth </label><input type="date" name="date" id="">
+            <br>
+            <label for="color"> Favorite Color</label><input type="Color" name="Favourite Color" id="color">
+            <br>
+            Gender: <select name="choice">
+               <option value="Female"> Female
+               <option value="Male"> Male
+                  <br>
+                  <br>
+                  <div>
+                     <input type="text" class="input-field" placeholder="Enter Password" required>
+                     <br>
+                     <input type="checkbox" class="check-box">I agree to the terms & conditions
+                     <button type="submit" class="submit-button">Register</button>
+                  </div>
+
+         </form>
+      </div>
+
+
+   </div>
+
+   <script>
+      var x = document.getElementById("login")
+      var y = document.getElementById("register")
+      var z = document.getElementById("btn")
+
+      function register() {
+         x.style.left = "-400px"
+         y.style.left = "50px"
+         z.style.left = "110px"
+      }
+      function login() {
+         x.style.left = "50px"
+         y.style.left = "450px"
+         z.style.left = "0px"
+      }
+   </script>
+</body>
+
+</html>

@@ -1,0 +1,319 @@
+* {
+   padding: 0;
+   margin: 0;
+   font-family: 'Josefin Sans', sans-serif;
+   box-sizing: border-box;
+   background-color: cadetblue;
+}
+
+.hero {
+   height: 100vh;
+   width: 100%;
+   /* background-image: url(/); */
+   background-size: 45rem;
+   background-position: right;
+}
+
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 45px;
+   padding-left: 8%;
+   padding-right: 8%;
+}
+
+.logo {
+   color: wheat;
+   font-size: 35px;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+
+span {
+   color: palevioletred;
+}
+
+nav ul li {
+   list-style-type: none;
+   display: inline-block;
+   padding: 10px 25px;
+}
+
+nav ul li a {
+   color: wheat;
+   text-decoration: none;
+   font-weight: bold;
+   text-transform: capitalize;
+}
+
+nav ul li a:hover {
+   color: palevioletred;
+   transition: .45;
+}
+
+.btn {
+   background-color: palevioletred;
+   color: white;
+   text-decoration: none;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 10px 25px;
+   border-radius: 30px;
+}
+
+.btn:hover {
+   transform: scale(1.2);
+}
+
+.content {
+   position: absolute;
+   top: 50%;
+   left: 8%;
+   transform: translateY(-50%);
+}
+
+h1 {
+   color: wheat;
+   margin: 20px 0px 20px;
+   font-size: 75px;
+}
+
+h3 {
+   color: wheat;
+   letter-spacing: 1px;
+   line-height: 12px;
+   font-size: 8px;
+   margin-bottom: 45px;
+}
+
+p {
+   color: wheat;
+   letter-spacing: 2px;
+   line-height: 24px;
+   font-size: 20px;
+   margin-bottom: 45px;
+}
+
+h4 {
+   color: palevioletred;
+   letter-spacing: 2px;
+   font-size: 20px;
+}
+
+.newsletter form {
+   width: 300px;
+   max-width: 100%;
+   position: relative;
+}
+
+.newsletter form input:first-child {
+   display: inline-block;
+   width: 100%;
+   padding: 14px 130px 14px 15px;
+   border: 2px solid palevioletred;
+   outline: none;
+   border-radius: 30px;
+}
+
+.newsletter form input:last-child {
+   position: absolute;
+   display: inline-block;
+   outline: none;
+   border: none;
+   padding: 10px 30px;
+   border-radius: 30px;
+   background-color: palevioletred;
+   color: white;
+   box-shadow: 0px 0px 5px palevioletred, 0px 0px 15px aquamarine;
+   top: 6px;
+   right: 6px;
+}
+
+.about {
+   width: 100%;
+   padding: 100px 0px;
+   background-color: cadetblue;
+}
+
+.about img {
+   height: auto;
+   width: 430px;
+}
+
+.about-text {
+   width: 550px;
+}
+
+.main {
+   width: 1130px;
+   max-width: 95%;
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.about-text h2 {
+   color: wheat;
+   font-size: 75px;
+   text-transform: capitalize;
+   margin-bottom: 20px;
+}
+
+.about-text h3 {
+   color: wheat;
+   letter-spacing: 2px;
+   font-size: 22px;
+   margin-bottom: 25px;
+   text-transform: capitalize;
+}
+
+.about-text p {
+   color: whitesmoke;
+   letter-spacing: 1px;
+   line-height: 28px;
+   font-size: 18px;
+   margin-bottom: 45px;
+}
+
+button {
+   color: wheat;
+   text-decoration: none;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 13px 30px;
+   border-radius: 30px;
+   transition: .4s;
+   background-color: palevioletred;
+}
+
+button:hover {
+   background-color: transparent;
+   border: 2px solid wheat;
+   cursor: pointer;
+}
+
+.service {
+   background: whitesmoke;
+   background-color: cadetblue;
+   width: 100%;
+   padding: 100px 0px;
+}
+
+.title h2 {
+   color: whitesmoke;
+   font-size: 75px;
+   width: 1130px;
+   margin: 30px auto;
+   text-align: center;
+}
+
+.box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 40px;
+}
+
+.card {
+   height: 365px;
+   width: 355px;
+   padding: 20px 35px;
+   background: whitesmoke;
+   border-radius: 20px;
+   margin: 15px;
+   position: relative;
+   overflow: hidden;
+   text-align: center;
+}
+
+h5 {
+   color: whitesmoke;
+   font-size: 23px;
+   margin-bottom: 15px;
+}
+
+.pra.p {
+   color: indigo;
+   font-size: 15px;
+   line-height: 27px;
+   margin-bottom: 25px;
+}
+
+.card .button {
+   color: indianred;
+   text-decoration: none;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 13px 30px;
+   border-radius: 30px;
+   transition: .4s;
+   background-color: antiquewhite;
+}
+
+.card .button:hover {
+   background-color: transparent;
+   border: 2px solid wheat;
+   cursor: pointer;
+}
+
+.contact-me {
+   width: 100%;
+   height: 290px;
+   background: cadetblue;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.contact-me p {
+   color: whitesmoke;
+   font-size: 30px;
+   font-weight: bold;
+   margin-bottom: 25px;
+}
+
+.contact-me .button-two {
+   color: wheat;
+   text-decoration: none;
+   border: 2px solid transparent;
+   font-weight: bold;
+   padding: 13px 30px;
+   border-radius: 30px;
+   transition: .4s;
+   background-color: palevioletred;
+}
+
+.contact-me .button-two:hover {
+   background-color: transparent;
+   border: 2px solid wheat;
+   cursor: pointer;
+}
+
+footer {
+   position: relative;
+   width: 100%;
+   height: 400px;
+   background: cadetblue;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+footer p:nth-child(1) {
+   font-size: 30px;
+   color: whitesmoke;
+   margin-bottom: 20px;
+   font-weight: bold;
+}
+
+footer p:nth-child(2) {
+   color: whitesmoke;
+   font-size: 17px;
+   width: 500px;
+   text-align: center;
+   line-height: 26px;
+}
